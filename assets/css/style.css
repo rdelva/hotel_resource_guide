@@ -15,8 +15,12 @@ ul li{
 	list-style: none;
 }
 
-h3 {
+legend {
 	border-bottom: solid 1px black;
+	width: 100%;
+	font-size:1.5em;
+	font-weight: bold;
+
 }
 
 .listing label + input{

@@ -63,7 +63,7 @@
 
 				</fieldset>
 				<fieldset id="details">
-					<h3>Listing Details</h3>
+					<legend>Listing Details</legend>
 						<label for="userCompany">Company Name</label> <input type="text" name="userCompany" id="userCompany">
 						<label for="userAddress">Address 1</label> <input type="text" name="userAddress" id="userAddress">
 						<label for="userAddress2">Address 2</label> <input type="text" name="userAddress2" id="userAddress2">
