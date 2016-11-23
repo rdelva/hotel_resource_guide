@@ -27,37 +27,37 @@
 						<div><h3>Category</h3></div>
 						<div>
 							<ul>
-								<li>Appraisers/Valuation</li>
-								<li>Architects</li>
-								<li>Architects/Engineers</li> 
-								<li>Asset Management</li> 
-								<li>Attorneys</li> 
-								<li>Banker/Lender/Financial Services </li> 
-								<li>Construction Companies</li> 
-								<li>Designers</li> 
-								<li>Contractors/Construction Managers </li> 
-								<li>Developers/Owners</li> 
-								<li>Environmental Services</li> 
-								<li>Exterminators</li> 
-								<li>Forecasting</li> 
-								<li>Full Service Real Estate Companies </li> 
-								<li>Hotel Advisors</li> 
-								<li>Hotel Brands</li> 
-								<li>Hotel Business</li> 
-								<li>Hotel Lodging REITSs</li> 
-								<li>Hotel Brokers</li> 
-								<li>Hotel Managers Group</li> 
-								<li>Hotel Supplies</li> 
-								<li>Lodging Hospitality</li> 
-								<li>Management Companies</li> 
-								<li>Owners &amp; Developers</li> 
-								<li>Purchasing Companies</li> 
-								<li>Property Management</li> 
-								<li>Property &amp; Structuring</li> 
-								<li>Real Estate Advisors</li> 
-								<li>Real Estate Financing</li> 
-								<li>Sales Brokers</li> 
-								<li>Other</li> 
+								<li><input type="checkbox" id="appraisers" value="Appraisers/Valuation"><label for="appraisers">Appraisers/Valuation</label></li>
+								<li><input type="checkbox" id="appraisers" value=""><label>Architects</label></li>
+								<li><input type="checkbox" id="appraisers"><label>Architects/Engineers</label></li> 
+								<li><input type="checkbox"><label>Asset Management</label></li> 
+								<li><input type="checkbox"><label>Attorneys</label></li> 
+								<li><input type="checkbox"><label>Banker/Lender/Financial Services </label></li> 
+								<li><input type="checkbox"><label>Construction Companies</label></li> 
+								<li><input type="checkbox"><label>Designers</label></li> 
+								<li><input type="checkbox"><label>Contractors/Construction Managers </label></li> 
+								<li><input type="checkbox"><label>Developers/Owners</label></li> 
+								<li><input type="checkbox"><label>Environmental Services</label></li> 
+								<li><input type="checkbox"><label>Exterminators</label></li> 
+								<li><input type="checkbox"><label>Forecasting</label></li> 
+								<li><input type="checkbox"><label>Full Service Real Estate Companies </label></li> 
+								<li><input type="checkbox"><label>Hotel Advisors</label></li> 
+								<li><input type="checkbox"><label>Hotel Brands</label></li> 
+								<li><input type="checkbox"><label>Hotel Business</label></li> 
+								<li><input type="checkbox"><label>Hotel Lodging REITSs</label></li> 
+								<li><input type="checkbox"><label>Hotel Brokers</label></li> 
+								<li><input type="checkbox"><label>Hotel Managers Group</label></li> 
+								<li><input type="checkbox"><label>Hotel Supplies</label></li> 
+								<li><input type="checkbox"><label>Lodging Hospitality</label></li> 
+								<li><input type="checkbox"><label>Management Companies</label></li> 
+								<li><input type="checkbox"><label>Owners &amp; Developers</label></li> 
+								<li><input type="checkbox"><label>Purchasing Companies</label></li> 
+								<li><input type="checkbox"><label>Property Management</label></li> 
+								<li><input type="checkbox"><label>Property &amp; Structuring</label></li> 
+								<li><input type="checkbox"><label>Real Estate Advisors</label></li> 
+								<li><input type="checkbox"><label>Real Estate Financing</label></li> 
+								<li><input type="checkbox"><label>Sales Brokers</label></li> 
+								<li><input type="checkbox"><label>Other</label></li> 
 							</ul>
 						</div>	
 
@@ -138,13 +138,13 @@
 						<label for="majorClients">Major Clients</label><textarea id="majorClients" name="majorClients"></textarea>	
 						<h3>Service Territory</h3>
 						<ul>
-							<li>Northeast</li>
-							<li>Southeast</li>
-							<li>Midwest</li>
-							<li>Southwest</li>
-							<li>West</li>
-							<li>International</li>
-							<li>Other <input type="text" name="territoryOther"></li>
+							<li><input type="checkbox"><label>Northeast</label></li>
+							<li><input type="checkbox"><label>Southeast</label></li>
+							<li><input type="checkbox"><label>Midwest</label></li>
+							<li><input type="checkbox"><label>Southwest</label></li>
+							<li><input type="checkbox"><label>West</label></li>
+							<li><input type="checkbox"><label>International</label></li>
+							<li><input type="checkbox"><label>Other <input type="text" name="territoryOther"></label></li>
 						</ul>
 						
 				</fieldset>
