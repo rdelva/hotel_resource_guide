@@ -19,9 +19,13 @@ ul li{
 	display: inline-block;
 }
 
+#submitter label + input,
 #details label + select,
+#details label + textarea,
 #details label + input {
 	display: block;
 	margin-bottom:1em;
 	width: 100%;
 }
+
+
