@@ -49,4 +49,7 @@ fieldset {
 	margin: 1em 0;
 }
 
+legend span {
+	font-size:.5em;
+}
 
