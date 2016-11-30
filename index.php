@@ -19,12 +19,28 @@
 				<fieldset id="info">
 					<legend>Listing Info</legend>
 						<div><h3>Listing Type</h3></div>
+						<p>Choose your listing type:</p>
 						<div class="listing">
-							<div><input type="radio" value="basic" name="listingType" id="basic"><label>Basic (no logo) - $625.00</label></div>
-							<div><input type="radio" value="expanded b/w" name="listingType" id="bwLogo"><label>Expanded (w/ black and white logo) - $710.00</label></div>
-							<div><input type="radio" value="expanded w/ color" name="listingType" id="colorLogo"><label>Expanded (w/ color logo) - $865.00</label></div>
-						</dvi>
-						<div><h3>Category</h3></div>
+							<div>
+								<input type="radio" value="basic" name="listingType" id="basic">
+								<label for="basic" >Basic <span>(no logo) - $625.00</span>
+								<img src="assets/img/sample_nologo.png">
+								</label>
+							</div>
+							<div>
+								<input type="radio" value="expanded b/w" name="listingType" id="bwLogo">
+								<label id="bwLogo">Expanded <span>(w/ black and white logo) - $710.00</span>
+								<img  src="assets/img/sample_bw.png">
+								</label>
+							</div>
+							<div>
+								<input type="radio" value="expanded w/ color" name="listingType" id="colorLogo">
+								<label for="colorLogo">Expanded <span>(w/ color logo) - $865.00</span>
+								<img  src="assets/img/sample_color.png">
+								</label>
+							</div>
+						</div>
+						<div class="category"><h3>Category</h3></div>
 						<div>
 							<ul>
 								<li><input type="checkbox" id="appraisers" value="Appraisers/Valuation"><label for="appraisers">Appraisers/Valuation</label></li>
@@ -60,7 +76,7 @@
 								<li><input type="checkbox"><label>Other</label></li> 
 							</ul>
 						</div>	
-
+						<div id="next">Next</div>
 				</fieldset>
 				<fieldset id="details">
 					<legend>Listing Details</legend>
@@ -164,6 +180,7 @@
 	</div>
 	<footer>
 	</footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="../assets/js/script.js"></script>
 </body>
 </html>
