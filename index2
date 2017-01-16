@@ -1,70 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-	<title>Hotel Resource Guide</title>
-	<link href="../assets/css/normalize.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="assets/css/style.css"  rel="stylesheet">
-
-</head>
-<body>
-	<header>
-		<div class="container"> 
-			<div class="deadline">Deadline: December 31st, 2016</div>
-		</div>
-	</header>
-	<div class="wrap">
-		<div id="next">Next</div>
-		<div id="prev">Prev</div>
+<section>
 		<div class="container">
+			
 			<form action="confirm.php" method="post">
-				<div id="form">
-					<div class="box1 current main">
-						<img src="assets/img/svg/logo.svg">
-						<h1>Hotel Resource Service Guide</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
-						<div id="start">Start</div>
-					</div> <!-- end of box one -->
-
-					<div class="box2">
-
-
-
+					<fieldset id="info">
+					<div id="nextPage">Next</div>
+					<div class="listing-type-section current">	
+						<legend>Listing Info</legend>
+					
 						<h3 class="listing-type">Listing Type: <span>Choose your listing type</span></h3>
 
 						<div class="listing clearfix">
-							<div class="listingChoice">
+							<div class="listing1">
 								<input type="radio" value="basic" name="listingType" id="basic">
 								<label for="basic" >Basic <span>(no logo) - $625.00</span>
 								<img src="assets/img/sample_nologo.png">
 								</label>
 							</div>
-							<div class="listingChoice">
+							<div>
 								<input type="radio" value="expanded b/w" name="listingType" id="bwLogo">
 								<label id="bwLogo">Expanded <span>(w/ black and white logo) - $710.00</span>
 								<img  src="assets/img/sample_bw.png">
 								</label>
 							</div>
-							<div class="listingChoice">
+							<div>
 								<input type="radio" value="expanded w/ color" name="listingType" id="colorLogo">
 								<label for="colorLogo">Expanded <span>(w/ color logo) - $865.00</span>
 								<img  src="assets/img/sample_color.png">
 								</label>
 							</div>
-						</div>
-
-					</div> <!-- end of box two -->
-					<div class="box3">Box 3
-							
+					</div> <!-- listing -type -section -->
+					<div class="category-section">
 						<h3 class="category">Category</h3>
-						
+						<div>
 							<ul class="category-list">
 								<li><input type="checkbox" id="appraisers" value="Appraisers/Valuation"><label for="appraisers">Appraisers/Valuation</label></li>
 								<li><input type="checkbox" id="Architects" value="Architects"><label>Architects</label></li>
@@ -98,12 +65,13 @@
 								<li><input type="checkbox" id="Sales Brokers" value="Sales Brokers"><label>Sales Brokers</label></li> 
 								<li><input type="checkbox" id="Other" value="Other"><label>Other</label></li> 
 							</ul>
-						
-					</div> <!-- end of box three -->
+						</div>	<!-- category section -->
 
-					<div class="companyInfo">
-							box4
-							<label for="userCompany">Company Name</label> <input type="text" name="userCompany" id="userCompany">
+					</fieldset>
+				<fieldset id="details">
+					<div class="listing-details-section">
+					<legend>Listing Details</legend>
+						<label for="userCompany">Company Name</label> <input type="text" name="userCompany" id="userCompany">
 						<label for="userAddress">Address 1</label> <input type="text" name="userAddress" id="userAddress">
 						<label for="userAddress2">Address 2</label> <input type="text" name="userAddress2" id="userAddress2">
 						<label for="userCity">City</label> <input type="text" name="userCity" id="userCity">
@@ -175,15 +143,7 @@
 						<label for="servicesProvided">Services Provided</label><textarea id="servicesProvided" name="servicesProvided"></textarea>	
 						<label for="companyDecription">Company Description</label><textarea id="companyDecription" name="companyDecription"></textarea>	
 						<label for="majorClients">Major Clients</label><textarea id="majorClients" name="majorClients"></textarea>	
-						
-
-
-
-
-					</div> <!-- end of box 4 -->
-					<div class="serviceTerritory">
-					box 5
-					<h3>Service Territory</h3>
+						<h3>Service Territory</h3>
 						<ul>
 							<li><input type="checkbox"><label>Northeast</label></li>
 							<li><input type="checkbox"><label>Southeast</label></li>
@@ -192,26 +152,21 @@
 							<li><input type="checkbox"><label>West</label></li>
 							<li><input type="checkbox"><label>International</label></li>
 							<li><input type="checkbox"><label>Other <input type="text" name="territoryOther"></label></li>
-						</ul>		
-
-					</div> <!-- end of box 5 -->
-					<div class="submitterInfo">
-					<legend>Submitter Information <span>(will not be printed)</span></legend>
+						</ul>
+					</div><!--listing-details-section -->	
+				</fieldset>
+				<fieldset id="submitter">
+					<div class="submitter-section">
+						<legend>Submitter Information <span>(will not be printed)</span></legend>
 							<label for="subName">Name</label> <input type="text" name="userCompany" id="userCompany">
 							<label for="subCompany">Company</label> <input type="text" name="subCompany" id="subCompany">
 							<label for="subPhone">Phone</label> <input type="text" name="subPhone" id="subPhone">
 							<label for="subEmail">Email</label> <input type="email" name="subEmail" id="subEmail">
-	
+					</div>		
 						
-					</div>	
+				</fieldset>
 
-				</div><!-- end of form box -->
-			</form>	
+
+			</form>
 		</div>
-	</div>
-	<footer>
-	</footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="assets/js/script.js"></script>
-</body>
-</html>
+		</section>

@@ -1,25 +1,48 @@
+
+/************* Base Styles ******************/
+
 * {
 	box-sizing: border-box;
 }
 
-
 img {
-	max-width: 100%;
+	max-width:100%;
 }
 
-
-/*header .container {
-
-	background-image: url('../img/hotel.jpg');
-	height:600px;
+body {
+	background-image: url("/assets/img/hotel.jpg");
+	font-family: 'Open Sans', sans-serif;
+	color:#e5e4e5;
+	border-top: solid 4px #e5e4e5;
+	 background-repeat: no-repeat;
     background-size: cover;
-     background-position: center;
-    background-repeat: no-repeat;
 
-}	*/
-.container {
-	padding: 1em;
+
 }
+
+a {
+	text-decoration: none;
+	color:#e5e4e5;
+}
+a:hover {
+	color:#d79277;
+}
+
+h1 {
+	margin: 0px;
+}
+
+.wrap {
+	
+	
+	min-height: calc(100vh - 92px);
+}
+
+.current ~ div {
+	display: none;
+
+}
+
 
 ul {
 	margin: 0;
@@ -28,116 +51,99 @@ ul {
 ul li{
 	list-style: none;
 }
+/************* Base Styles ******************/
 
-legend {
-	border-bottom: solid 1px black;
-	width: 100%;
-	font-size:1.5em;
-	font-weight: bold;
+/**************Layout Styles**************************/
+
+
+header {
+	background-color: #1f1f21;
+	text-align: center;
+}
+
+.container {
+	padding: 10px;
+
 
 }
 
-.listing img {
+
+.main p {
+	line-height: 2em;
+
+}
+
+#start {
+
 	display: block;
+	border: solid  1px #e5e4e6;
+	padding: 10px;
+	border-radius: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto;
+	max-width: 100%;
+	width:500px;
+}
+
+#start:hover {
+	background-color: #fff;
+	color:#000;
 
 }
 
-.listing div {
-	border: solid 1px #ccc;
-	border-radius: 5px;
+/************* Body ***********************/
+
+/********************************************
+
+Listing Type
+****************************************/
+
+.listingChoice {
+
+	border: solid  1px #e5e4e6;
+	display: block;
+	padding:10px;
+	margin-bottom:1px;
+}
+
+.listingChoice img {
+	display: block;
+	margin-top: .5em;
+}
+
+input [type="radio"] {
+	display: inline-block;
+}
+
+/********************************************
+Category
+****************************************/
+
+.category-list li{
+	margin-bottom: 10px;
+
+} 
+
+.category-list label, .serviceTerritory label {
+	padding-left: 10px;
+}
+
+/********************************************
+Company Info
+****************************************/
+.companyInfo label, .submitterInfo label {
+	display: block;
+}
+
+.companyInfo [type="text"], 
+textarea,
+.submitterInfo [type="text"],
+.submitterInfo [type="email"]
+ {
 	margin-bottom: 1em;
-	padding: 1em;
-}
-
-.listing div:hover {
-	box-shadow: 10px 10px 5px #888888;
-}
-
-.listing label + input{
-	display: inline-block;
-}
-
-.listing  input {
-	vertical-align: top;
-}
-
-.listing label  span {
-	font-size: .75em;
-	display: block;
-}
-
-#submitter label + input,
-#details label + select,
-#details label + textarea,
-#details label + input {
-	
-	margin-bottom:1em;
 	width: 100%;
-}
-
-
-[type="radio"] + label,
-[type="checkbox"] + label {
-	padding:0 0 1em 1em;
-	display: inline-block;
+	max-width: calc(100vh - 1em);
 
 }
 
-fieldset {
-	border:none;
-	margin: 1em 0;
-}
-
-legend {
-	margin-bottom:.5em;
-}
-
-legend span {
-	font-size:.5em;
-}
-
-[type="placeholder"]{
-	font-style: italic;
-}
-
-input [type="text"] {
-	border: 
-}
-
-input:focus,
-textarea:focus
-{
-	
-	background-color: #f3e6d3;
-	color:#1d333e;
-}
-
-#details,
-#submitter{
-	display: none;
-}
-
-
-
-
-/************************************************
-				Media Queries
-*************************************************/
-
-@media screen and (min-width:769px) {
-
-
-
-
-
-
-}
-
-@media screen and (min-width:1024px) {
-
-	
-
-
-
-	
-}
