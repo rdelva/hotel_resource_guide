@@ -104,7 +104,7 @@ Listing Type
 	border: solid  1px #e5e4e6;
 	display: block;
 	padding:10px;
-	margin-bottom:1px;
+	margin-bottom:1em;
 }
 
 .listingChoice img {
@@ -115,6 +115,7 @@ Listing Type
 input [type="radio"] {
 	display: inline-block;
 }
+
 
 /********************************************
 Category

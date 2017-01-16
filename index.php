@@ -22,7 +22,7 @@
 			<form action="confirm.php" method="post">
 				<div id="form">
 					<div class="box1 current main">
-						<img src="assets/img/svg/logo.svg">
+						<img src="assets/img/svg/logo.svg" alt="Real Estate Form Logo">
 						<h1>Hotel Resource Service Guide</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -43,19 +43,19 @@
 							<div class="listingChoice">
 								<input type="radio" value="basic" name="listingType" id="basic">
 								<label for="basic" >Basic <span>(no logo) - $625.00</span>
-								<img src="assets/img/sample_nologo.png">
+								<img src="assets/img/sample_nologo.png" alt="Listing with no Logo">
 								</label>
 							</div>
 							<div class="listingChoice">
 								<input type="radio" value="expanded b/w" name="listingType" id="bwLogo">
-								<label id="bwLogo">Expanded <span>(w/ black and white logo) - $710.00</span>
-								<img  src="assets/img/sample_bw.png">
+								<label for="bwLogo">Expanded <span>(w/ black and white logo) - $710.00</span>
+								<img  src="assets/img/sample_bw.png" alt="Listing with Black and White logo">
 								</label>
 							</div>
 							<div class="listingChoice">
 								<input type="radio" value="expanded w/ color" name="listingType" id="colorLogo">
 								<label for="colorLogo">Expanded <span>(w/ color logo) - $865.00</span>
-								<img  src="assets/img/sample_color.png">
+								<img  src="assets/img/sample_color.png" alt="Listing with Color Logo">
 								</label>
 							</div>
 						</div>
@@ -68,34 +68,34 @@
 							<ul class="category-list">
 								<li><input type="checkbox" id="appraisers" value="Appraisers/Valuation"><label for="appraisers">Appraisers/Valuation</label></li>
 								<li><input type="checkbox" id="Architects" value="Architects"><label>Architects</label></li>
-								<li><input type="checkbox" id="Architects/Engineers" value="Architects/Engineers"><label>Architects/Engineers</label></li> 
-								<li><input type="checkbox" id="Asset Management"><label>Asset Management</label></li> 
+								<li><input type="checkbox" id="Architects_Engineers" value="Architects/Engineers"><label>Architects/Engineers</label></li> 
+								<li><input type="checkbox" id="Asset_Management"><label>Asset Management</label></li> 
 								<li><input type="checkbox" id="Attorneys" value="Attorneys"><label>Attorneys</label></li> 
-								<li><input type="checkbox" id="Banker/Lender/Financial Services" value="Banker/Lender/Financial Services"><label>Banker/Lender/Financial Services </label></li> 
-								<li><input type="checkbox" id="Construction Companies" value="Construction Companies"><label>Construction Companies</label></li> 
+								<li><input type="checkbox" id="Banker_Lender_Financial_Services" value="Banker/Lender/Financial Services"><label>Banker/Lender/Financial Services </label></li> 
+								<li><input type="checkbox" id="Construction_Companies" value="Construction Companies"><label>Construction Companies</label></li> 
 								<li><input type="checkbox" id="Designers" value="Designers"><label>Designers</label></li> 
-								<li><input type="checkbox" id="Contractors/Construction Managers" value=""><label>Contractors/Construction Managers </label></li> 
-								<li><input type="checkbox" id="Developers/Owners" value="Developers/Owners"><label>Developers/Owners</label></li> 
-								<li><input type="checkbox" id="Environmental Services" value="Environmental Services"><label>Environmental Services</label></li> 
+								<li><input type="checkbox" id="Contractors_Construction_Managers" value=""><label>Contractors/Construction Managers </label></li> 
+								<li><input type="checkbox" id="Developers_Owners" value="Developers/Owners"><label>Developers/Owners</label></li> 
+								<li><input type="checkbox" id="Environmental_Services" value="Environmental Services"><label>Environmental Services</label></li> 
 								<li><input type="checkbox" id="Exterminators" value="Exterminators"><label>Exterminators</label></li> 
 								<li><input type="checkbox" id="Forecasting" value="Forecasting"><label>Forecasting</label></li> 
-								<li><input type="checkbox" id="Full Service Real Estate Companies" value="Full Service Real Estate Companies"><label>Full Service Real Estate Companies </label></li> 
-								<li><input type="checkbox" id="Hotel Advisors" value="Hotel Advisors"><label>Hotel Advisors</label></li> 
-								<li><input type="checkbox" id="Hotel Brands" value="Hotel Brands"><label>Hotel Brands</label></li> 
-								<li><input type="checkbox" id="Hotel Business" value="Hotel Business"><label>Hotel Business</label></li> 
-								<li><input type="checkbox" id="Hotel Lodging REITSs" value="Hotel Lodging REITSs"><label>Hotel Lodging REITSs</label></li> 
-								<li><input type="checkbox" id="Hotel Brokers" value="Hotel Brokers"><label>Hotel Brokers</label></li> 
-								<li><input type="checkbox" id="Hotel Managers Group" value="Hotel Managers Group"><label>Hotel Managers Group</label></li> 
-								<li><input type="checkbox" id="Hotel Supplies" value="Hotel Supplies"><label>Hotel Supplies</label></li> 
-								<li><input type="checkbox" id="Lodging Hospitality" value="Lodging Hospitality"><label>Lodging Hospitality</label></li> 
-								<li><input type="checkbox" id="Management Companies" value="Management Companies"><label>Management Companies</label></li> 
-								<li><input type="checkbox" id="Owners and Developers" value="Owners &amp; Developers"><label>Owners &amp; Developers</label></li> 
-								<li><input type="checkbox" id="Purchasing Companies" value="Purchasing Companies"><label>Purchasing Companies</label></li> 
-								<li><input type="checkbox" id="Property Management" value="Property Management"><label>Property Management</label></li> 
-								<li><input type="checkbox" id="Property and Structuring" value="Property &amp; Structuring"><label>Property &amp; Structuring</label></li> 
-								<li><input type="checkbox" id="Real Estate Advisors" value="Real Estate Advisors"><label>Real Estate Advisors</label></li> 
-								<li><input type="checkbox" id="Real Estate Financing" value="Real Estate Financing"><label>Real Estate Financing</label></li> 
-								<li><input type="checkbox" id="Sales Brokers" value="Sales Brokers"><label>Sales Brokers</label></li> 
+								<li><input type="checkbox" id="Full_Service_Real_Estate_Companies" value="Full Service Real Estate Companies"><label>Full Service Real Estate Companies </label></li> 
+								<li><input type="checkbox" id="Hotel_Advisors" value="Hotel Advisors"><label>Hotel Advisors</label></li> 
+								<li><input type="checkbox" id="Hotel_Brands" value="Hotel Brands"><label>Hotel Brands</label></li> 
+								<li><input type="checkbox" id="Hotel_Business" value="Hotel Business"><label>Hotel Business</label></li> 
+								<li><input type="checkbox" id="Hotel_Lodging_REITSs" value="Hotel Lodging REITSs"><label>Hotel Lodging REITSs</label></li> 
+								<li><input type="checkbox" id="Hotel_Brokers" value="Hotel Brokers"><label>Hotel Brokers</label></li> 
+								<li><input type="checkbox" id="Hotel_Managers_Group" value="Hotel Managers Group"><label>Hotel Managers Group</label></li> 
+								<li><input type="checkbox" id="Hotel_Supplies" value="Hotel Supplies"><label>Hotel Supplies</label></li> 
+								<li><input type="checkbox" id="Lodging_Hospitality" value="Lodging Hospitality"><label>Lodging Hospitality</label></li> 
+								<li><input type="checkbox" id="Management_Companies" value="Management Companies"><label>Management Companies</label></li> 
+								<li><input type="checkbox" id="Owners_and_Developers" value="Owners &amp; Developers"><label>Owners &amp; Developers</label></li> 
+								<li><input type="checkbox" id="Purchasing_Companies" value="Purchasing Companies"><label>Purchasing Companies</label></li> 
+								<li><input type="checkbox" id="Property_Management" value="Property Management"><label>Property Management</label></li> 
+								<li><input type="checkbox" id="Property_and_Structuring" value="Property &amp; Structuring"><label>Property &amp; Structuring</label></li> 
+								<li><input type="checkbox" id="Real_Estate_Advisors" value="Real Estate Advisors"><label>Real Estate Advisors</label></li> 
+								<li><input type="checkbox" id="Real_Estate_Financing" value="Real Estate Financing"><label>Real Estate Financing</label></li> 
+								<li><input type="checkbox" id="Sales_Brokers" value="Sales Brokers"><label>Sales Brokers</label></li> 
 								<li><input type="checkbox" id="Other" value="Other"><label>Other</label></li> 
 							</ul>
 						
@@ -107,7 +107,7 @@
 						<label for="userAddress">Address 1</label> <input type="text" name="userAddress" id="userAddress">
 						<label for="userAddress2">Address 2</label> <input type="text" name="userAddress2" id="userAddress2">
 						<label for="userCity">City</label> <input type="text" name="userCity" id="userCity">
-						<label for="userState">State</label> 
+						<label>State</label> 
 						<select name="userState" id="state">
 											<option value=" ">Choose State</option>
 											<option value="Alabama">Alabama</option>
@@ -166,11 +166,11 @@
 						<label for="userWebsite">Company Website</label> <input type="text" name="userWebsite" id="userWebsite">
 						<div>
 							<label for="userExecutive1">Key Executive #1	 </label> <input type="text" name="userExecutive1" id="userExecutive1">
-							<label for="userExecutiveTitle1">Key Executive  Title #1</label> <input type="text" name="userExecutive1" id="userExecutive1">
+							<label for="userExecutiveTitle1">Key Executive  Title #1</label> <input type="text" name="userExecutiveTitle1" id="userExecutiveTitle1">
 							<label for="userExecutive1">Key Executive #2	 </label> <input type="text" name="userExecutive2" id="userExecutive2">
 							<label for="userExecutiveTitle2">Key Executive  Title #2</label> <input type="text" name="userExecutiveTitle2" id="userExecutiveTitle2">
-							<label for="userExecutive3">Key Executive #3	 </label> <input type="text" name="userExecutive1" id="userExecutive3">
-							<label for="userExecutiveTitle3">Key Executive  Title #3</label> <input type="text" name="userExecutive1" id="userExecutive3">
+							<label for="userExecutive3">Key Executive #3	 </label> <input type="text" name="userExecutive3" id="userExecutive3">
+							<label for="userExecutiveTitle3">Key Executive  Title #3</label> <input type="text" name="userExecutiveTitle3" id="userExecutiveTitle3">
 						</div>
 						<label for="servicesProvided">Services Provided</label><textarea id="servicesProvided" name="servicesProvided"></textarea>	
 						<label for="companyDecription">Company Description</label><textarea id="companyDecription" name="companyDecription"></textarea>	
@@ -196,8 +196,8 @@
 
 					</div> <!-- end of box 5 -->
 					<div class="submitterInfo">
-					<legend>Submitter Information <span>(will not be printed)</span></legend>
-							<label for="subName">Name</label> <input type="text" name="userCompany" id="userCompany">
+					<h3>Submitter Information <span>(will not be printed)</span></h3>
+							<label for="subName">Name</label> <input type="text" name="subName" id="subName">
 							<label for="subCompany">Company</label> <input type="text" name="subCompany" id="subCompany">
 							<label for="subPhone">Phone</label> <input type="text" name="subPhone" id="subPhone">
 							<label for="subEmail">Email</label> <input type="email" name="subEmail" id="subEmail">
