@@ -11,13 +11,16 @@
 </head>
 <body>
 	<header>
-		<div class="container"> 
+		<div class="container clearfix"> 
+			<img src="assets/img/svg/logo.svg" alt="Real Estate Form Logo" class="headLogo">
 			<div class="deadline">Deadline: December 31st, 2016</div>
 		</div>
 	</header>
 	<div class="wrap">
-		<div id="next">Next</div>
-		<div id="prev">Prev</div>
+		<div class="clearfix container">
+			<div id="next">Next</div>
+			<div id="prev">Prev</div>
+		</div>
 		<div class="container">
 			<form action="confirm.php" method="post">
 				<div id="form">
@@ -61,8 +64,7 @@
 						</div>
 
 					</div> <!-- end of box two -->
-					<div class="box3">Box 3
-							
+					<div class="box3">
 						<h3 class="category">Category</h3>
 						
 							<ul class="category-list">
@@ -102,8 +104,7 @@
 					</div> <!-- end of box three -->
 
 					<div class="companyInfo">
-							box4
-							<label for="userCompany">Company Name</label> <input type="text" name="userCompany" id="userCompany">
+						<label for="userCompany">Company Name</label> <input type="text" name="userCompany" id="userCompany" placeholder="(e.g. CBRE)">
 						<label for="userAddress">Address 1</label> <input type="text" name="userAddress" id="userAddress">
 						<label for="userAddress2">Address 2</label> <input type="text" name="userAddress2" id="userAddress2">
 						<label for="userCity">City</label> <input type="text" name="userCity" id="userCity">
@@ -161,8 +162,8 @@
 											<option value="Wyoming">Wyoming</option>
 										</select>
 						<label for="userZip">Zip</label> <input type="text" name="userZip" id="userZip">
-						<label for="userPhone">Phone</label> <input type="text" name="userPhone" id="userPhone">
-						<label for="userEmail">Company Email</label> <input type="text" name="userEmail" id="userEmail">
+						<label for="userPhone">Phone</label> <input type="tel" name="userPhone" id="userPhone">
+						<label for="userEmail">Company Email</label> <input type="email" name="userEmail" id="userEmail" placeholder="email@email.com">
 						<label for="userWebsite">Company Website</label> <input type="text" name="userWebsite" id="userWebsite">
 						<div>
 							<label for="userExecutive1">Key Executive #1	 </label> <input type="text" name="userExecutive1" id="userExecutive1">
@@ -182,8 +183,7 @@
 
 					</div> <!-- end of box 4 -->
 					<div class="serviceTerritory">
-					box 5
-					<h3>Service Territory</h3>
+						<h3>Service Territory</h3>
 						<ul>
 							<li><input type="checkbox"><label>Northeast</label></li>
 							<li><input type="checkbox"><label>Southeast</label></li>
@@ -196,7 +196,8 @@
 
 					</div> <!-- end of box 5 -->
 					<div class="submitterInfo">
-					<h3>Submitter Information <span>(will not be printed)</span></h3>
+					<h3>Submitter Information <span>(will not be printed)</span> </h3>
+
 							<label for="subName">Name</label> <input type="text" name="subName" id="subName">
 							<label for="subCompany">Company</label> <input type="text" name="subCompany" id="subCompany">
 							<label for="subPhone">Phone</label> <input type="text" name="subPhone" id="subPhone">

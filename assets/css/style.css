@@ -20,6 +20,12 @@ body {
 
 }
 
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 a {
 	text-decoration: none;
 	color:#e5e4e5;
@@ -51,6 +57,19 @@ ul {
 ul li{
 	list-style: none;
 }
+
+.headLogo {
+	width: 150px;
+	
+	display: none;
+	
+}
+
+.deadline {
+	
+	display: none;
+}
+
 /************* Base Styles ******************/
 
 /**************Layout Styles**************************/
@@ -61,12 +80,23 @@ header {
 	text-align: center;
 }
 
+footer {
+	background-color: #1f1f21;
+	height:92px;
+}
+
 .container {
 	padding: 10px;
 
 
 }
+h3 span {
+	font-size:.70em;
+}
 
+label span {
+	font-size:.75em;
+}
 
 .main p {
 	line-height: 2em;
@@ -91,6 +121,21 @@ header {
 	color:#000;
 
 }
+
+#next {
+	float:right;
+	display: inline-block;
+}
+
+#prev {
+	float:left;
+	display: inline-block;
+}
+
+#next,#prev {
+	display:none;
+}
+
 
 /************* Body ***********************/
 
@@ -148,3 +193,14 @@ textarea,
 
 }
 
+.companyInfo [type="placeholder"]{ 
+
+	font-style: italic;
+	color:#ddd;
+
+}
+
+@media  screen and (min-width: 769px) {
+
+	
+}

@@ -6,10 +6,15 @@ var items;
 // finds the next id
 
 
+
 $("#start").on("click", function(){
 	currentItem = $(".current");
 	currentItem.hide().removeClass("current");
 	currentItem.next().show().addClass("current");
+	$("#prev").show();
+	$("#next").show();
+	$(".headLogo").show();
+	$(".deadline").show();
 
 });
 
@@ -66,51 +71,37 @@ $("#prev").on("click", function(){
 	{
 
 
-	//find the current class
-	 currentItem = $(".current");
+		//find the current class
+		 currentItem = $(".current");
 
 
-	 //remove current class
-	 currentItem.hide().removeClass("current");
+		 //remove current class
+		 currentItem.hide().removeClass("current");
 
 
-	 //find the previous item
-	 prevItem = currentItem.prev();
+		 //find the previous item
+		 prevItem = currentItem.prev();
 
 
-	 //add the current  class to prev
+		 //add the current  class to prev
 
-	 prevItem = prevItem.show().addClass("current");
-
-	 
-	console.log(prevItem);
-
-}
+		 prevItem = prevItem.show().addClass("current");
 
 
-});
+		 if(prevItem.hasClass("current") && prevItem.hasClass("main"))
+		 {
+		 	$("#prev").hide();
+		 	$("#next").hide();
+		 	$(".deadline").hide();
+		 	$(".headLogo").hide();
+		 }
 
-
-
-
-
-/*$(".category-section").hide();
-$(".listing-details-section").hide();
-$(".submitter-section").hide();
-
-$("#nextPage").on("click", function() {
-
-	
-	
-	if ($(".listing-type-section").hasClass("current")) {
-		$(".listing-type-section").hide();
-		$(".category-section").show();
+		 
+		console.log(prevItem);
 
 	}
-	
 
 
-
- 	
 });
-*/
+
+
