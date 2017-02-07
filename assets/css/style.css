@@ -200,7 +200,29 @@ textarea,
 
 }
 
-@media  screen and (min-width: 769px) {
+@media  screen and (min-width: 768px) {
 
-	
+	.listingSection {
+	 	
+	 
+	}
+
+	.listingChoice  {
+		width: 30%;
+		float:left;
+		display: inline;
+		margin-right:15px;
+	}
+
+
+
+	.category-list li{
+
+		display: inline-block;
+		float:left;
+		width:50%;
+
+	}
+
+
 }

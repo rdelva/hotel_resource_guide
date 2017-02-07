@@ -36,35 +36,32 @@
 						<div id="start">Start</div>
 					</div> <!-- end of box one -->
 
-					<div class="box2">
-
-
-
+					<div class="box2 listingSection">
 						<h3 class="listing-type">Listing Type: <span>Choose your listing type</span></h3>
 
 						<div class="listing clearfix">
 							<div class="listingChoice">
 								<input type="radio" value="basic" name="listingType" id="basic">
-								<label for="basic" >Basic <span>(no logo) - $625.00</span>
+								<label for="basic" >No Logo - $625.00</span>
 								<img src="assets/img/sample_nologo.png" alt="Listing with no Logo">
 								</label>
 							</div>
 							<div class="listingChoice">
 								<input type="radio" value="expanded b/w" name="listingType" id="bwLogo">
-								<label for="bwLogo">Expanded <span>(w/ black and white logo) - $710.00</span>
+								<label for="bwLogo">B/W Logo - $710.00</span>
 								<img  src="assets/img/sample_bw.png" alt="Listing with Black and White logo">
 								</label>
 							</div>
 							<div class="listingChoice">
 								<input type="radio" value="expanded w/ color" name="listingType" id="colorLogo">
-								<label for="colorLogo">Expanded <span>(w/ color logo) - $865.00</span>
+								<label for="colorLogo">Color Logo - $865.00</span>
 								<img  src="assets/img/sample_color.png" alt="Listing with Color Logo">
 								</label>
 							</div>
 						</div>
 
 					</div> <!-- end of box two -->
-					<div class="box3">
+					<div class="box3 clearfix">
 						<h3 class="category">Category</h3>
 						
 							<ul class="category-list">
