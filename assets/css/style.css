@@ -17,7 +17,10 @@ body {
 	 background-repeat: no-repeat;
     background-size: cover;
 
+}
 
+.container {
+	margin: 0 auto;
 }
 
 .clearfix::after {
@@ -87,9 +90,10 @@ footer {
 
 .container {
 	padding: 10px;
-
-
 }
+
+
+
 h3 span {
 	font-size:.70em;
 }
@@ -189,9 +193,18 @@ textarea,
  {
 	margin-bottom: 1em;
 	width: 100%;
-	max-width: calc(100vh - 1em);
-
+	max-width: calc(100vh - 1em);	
+	padding: 10px;
 }
+
+[type="text"],
+[type="email"],
+[type="tel"],
+select 
+{
+	height:3em;
+}
+
 
 .companyInfo [type="placeholder"]{ 
 
@@ -222,6 +235,25 @@ textarea,
 		float:left;
 		width:50%;
 
+	}
+
+
+}
+
+@media  screen and (min-width: 1024px){
+
+
+	.container{
+		width: 80%;
+
+	}
+
+	.headLogo{
+		float:left;
+	}
+
+	.deadline {
+		float:right;
 	}
 
 

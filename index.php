@@ -181,7 +181,7 @@
 					</div> <!-- end of box 4 -->
 					<div class="serviceTerritory">
 						<h3>Service Territory</h3>
-						<ul>
+						<ul>ph
 							<li><input type="checkbox"><label>Northeast</label></li>
 							<li><input type="checkbox"><label>Southeast</label></li>
 							<li><input type="checkbox"><label>Midwest</label></li>
@@ -197,7 +197,7 @@
 
 							<label for="subName">Name</label> <input type="text" name="subName" id="subName">
 							<label for="subCompany">Company</label> <input type="text" name="subCompany" id="subCompany">
-							<label for="subPhone">Phone</label> <input type="text" name="subPhone" id="subPhone">
+							<label for="subPhone">Phone</label> <input type="tel" name="subPhone" id="subPhone">
 							<label for="subEmail">Email</label> <input type="email" name="subEmail" id="subEmail">
 	
 						
