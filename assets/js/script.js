@@ -24,7 +24,7 @@ $("#next").on("click", function(){
 
 
 	//find the current class
-	 item = $("#form div").last();
+	 item = $(".section").last();
 
 	 console.log(item);
 
@@ -49,11 +49,9 @@ $("#next").on("click", function(){
 	console.log("true");
 	}
 
-else {
-	
-	
-	event.preventDefault()
-}
+	else {
+		event.preventDefault();
+	}
 
 
 });

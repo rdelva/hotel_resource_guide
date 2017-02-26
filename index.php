@@ -12,11 +12,12 @@
 <body>
 	<header>
 		<div class="container clearfix"> 
-			<img src="assets/img/svg/logo.svg" alt="Real Estate Form Logo" class="headLogo">
+			<a id="logo"><img src="assets/img/svg/logo.svg" alt="Real Estate Form Logo" class="headLogo"></a>
 			<div class="deadline">Deadline: December 31st, 2016</div>
 		</div>
 	</header>
 	<div class="wrap">
+
 		<div class="clearfix container">
 			<div id="next">Next</div>
 			<div id="prev">Prev</div>
@@ -24,7 +25,7 @@
 		<div class="container">
 			<form action="confirm.php" method="post">
 				<div id="form">
-					<div class="box1 current main">
+					<div class="box1 current main section">
 						<img src="assets/img/svg/logo.svg" alt="Real Estate Form Logo">
 						<h1>Hotel Resource Service Guide</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -36,7 +37,7 @@
 						<div id="start">Start</div>
 					</div> <!-- end of box one -->
 
-					<div class="box2 listingSection">
+					<div class="box2 listingSection section">
 						<h3 class="listing-type">Listing Type: <span>Choose your listing type</span></h3>
 
 						<div class="listing clearfix">
@@ -61,7 +62,7 @@
 						</div>
 
 					</div> <!-- end of box two -->
-					<div class="box3 clearfix">
+					<div class="box3 clearfix section">
 						<h3 class="category">Category</h3>
 						
 							<ul class="category-list">
@@ -100,13 +101,14 @@
 						
 					</div> <!-- end of box three -->
 
-					<div class="companyInfo">
+					<div class="companyInfo section">
 						<label for="userCompany">Company Name</label> <input type="text" name="userCompany" id="userCompany" placeholder="(e.g. CBRE)">
 						<label for="userAddress">Address 1</label> <input type="text" name="userAddress" id="userAddress">
 						<label for="userAddress2">Address 2</label> <input type="text" name="userAddress2" id="userAddress2">
 						<label for="userCity">City</label> <input type="text" name="userCity" id="userCity">
-						<label>State</label> 
-						<select name="userState" id="state">
+						
+							<label for="userState">State</label> 
+							<select name="userState" id="state">
 											<option value=" ">Choose State</option>
 											<option value="Alabama">Alabama</option>
 											<option value="Alaska">Alaska</option>
@@ -158,10 +160,19 @@
 											<option value="Wisconsin">Wisconsin</option>
 											<option value="Wyoming">Wyoming</option>
 										</select>
-						<label for="userZip">Zip</label> <input type="text" name="userZip" id="userZip">
-						<label for="userPhone">Phone</label> <input type="tel" name="userPhone" id="userPhone">
-						<label for="userEmail">Company Email</label> <input type="email" name="userEmail" id="userEmail" placeholder="email@email.com">
-						<label for="userWebsite">Company Website</label> <input type="text" name="userWebsite" id="userWebsite">
+										
+						<div>			
+							<label for="userZip">Zip</label> <input type="text" name="userZip" id="userZip">
+						</div>
+						<div>
+							<label for="userPhone">Phone</label> <input type="tel" name="userPhone" id="userPhone">
+						</div>
+						<div>
+							<label for="userEmail">Company Email</label> <input type="email" name="userEmail" id="userEmail" placeholder="email@email.com">
+						</div>
+						<div>
+							<label for="userWebsite">Company Website</label> <input type="text" name="userWebsite" id="userWebsite">
+						</div>	
 						<div>
 							<label for="userExecutive1">Key Executive #1	 </label> <input type="text" name="userExecutive1" id="userExecutive1">
 							<label for="userExecutiveTitle1">Key Executive  Title #1</label> <input type="text" name="userExecutiveTitle1" id="userExecutiveTitle1">
@@ -179,26 +190,36 @@
 
 
 					</div> <!-- end of box 4 -->
-					<div class="serviceTerritory">
+					<div class="serviceTerritory section">
 						<h3>Service Territory</h3>
-						<ul>ph
+						<ul>
 							<li><input type="checkbox"><label>Northeast</label></li>
 							<li><input type="checkbox"><label>Southeast</label></li>
 							<li><input type="checkbox"><label>Midwest</label></li>
 							<li><input type="checkbox"><label>Southwest</label></li>
-							<li><input type="checkbox"><label>West</label></li>
-							<li><input type="checkbox"><label>International</label></li>
-							<li><input type="checkbox"><label>Other <input type="text" name="territoryOther"></label></li>
+							<li><input type="checkbox"><label for="west">West</label></li>
+							<li><input type="checkbox"><label for="international">International</label></li>
+							<li><input type="checkbox"><label for="other">Other </label><input type="text" name="territoryOther"></li>
 						</ul>		
 
 					</div> <!-- end of box 5 -->
-					<div class="submitterInfo">
+					<div class="submitterInfo section">
 					<h3>Submitter Information <span>(will not be printed)</span> </h3>
 
-							<label for="subName">Name</label> <input type="text" name="subName" id="subName">
-							<label for="subCompany">Company</label> <input type="text" name="subCompany" id="subCompany">
-							<label for="subPhone">Phone</label> <input type="tel" name="subPhone" id="subPhone">
-							<label for="subEmail">Email</label> <input type="email" name="subEmail" id="subEmail">
+							<div>
+								<label for="subName">Name</label> <input type="text" name="subName" id="subName">
+							</div>
+							<div>
+								<label for="subCompany">Company</label> <input type="text" name="subCompany" id="subCompany">
+							</div>
+							<div>	
+								<label for="subPhone">Phone</label> <input type="tel" name="subPhone" id="subPhone">
+							</div>
+							<div>
+								<label for="subEmail">Email</label> <input type="email" name="subEmail" id="subEmail">
+							</div>
+
+							<div class="submit"><button type="submit">Submit</button></div>
 	
 						
 					</div>	
